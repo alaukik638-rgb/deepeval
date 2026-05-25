@@ -1,0 +1,3 @@
+PYTHONPATH=$(pwd) pytest DeepEval/Metrics/RAGMetrics/02FaithfulnessMetric/test_faithfulness_custom_template_practice_001.py -s
+
+PYTHONPATH=$(pwd) deepeval test run DeepEval/Metrics/RAGMetrics/02FaithfulnessMetric/test_faithfulness_custom_template_practice_001.py -s

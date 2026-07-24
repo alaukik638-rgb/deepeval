@@ -19,5 +19,5 @@ def test_text_based_answer_relevancy_metric():
 
     # metric.measure(test_case)
     # print(metric.score, metric.reason)
-    # evaluate(metrics = [metric], test_cases = [test_case])
+    # evaluate(task_completion = [metric], test_cases = [test_case])
     evaluate([test_case], [metric])

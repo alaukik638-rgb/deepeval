@@ -24,7 +24,7 @@ class FaithfulRelevancyMetric(BaseMetric):
     def measure(self, test_case: LLMTestCase, *args, **kwargs):
         try:
             relevancy_metric, faithfulness_metric = self.initialize_metrics()
-            # Remember, deepeval's default metrics follow the same pattern as your custom metric!
+            # Remember, deepeval's default task_completion follow the same pattern as your custom metric!
             relevancy_metric.measure(test_case)
             faithfulness_metric.measure(test_case)
 

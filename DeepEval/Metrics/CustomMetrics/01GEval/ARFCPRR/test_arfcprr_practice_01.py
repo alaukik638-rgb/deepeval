@@ -124,6 +124,6 @@ def test_all_metric():
         ]
     )
 
-    # evaluate(test_cases=[test_case_2], metrics=[faithfulness_metric, answer_relevancy_metric, contextual_precision_metric,
+    # evaluate(test_cases=[test_case_2], task_completion=[faithfulness_metric, answer_relevancy_metric, contextual_precision_metric,
     #                                          contextual_recall_metric, contextual_relevancy_metric])
     evaluate(test_cases=[test_case_2], metrics=[faithfulness_metric])

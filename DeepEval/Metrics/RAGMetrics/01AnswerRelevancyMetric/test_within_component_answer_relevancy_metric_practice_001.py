@@ -30,7 +30,7 @@ def test_within_component_answer_relevancy_metric():
         output = inner_component(input)
         return output
 
-    # Execute with tracing - metrics evaluate at component level
+    # Execute with tracing - task_completion evaluate at component level
     goldens = [
         Golden(input="Hi")
     ]

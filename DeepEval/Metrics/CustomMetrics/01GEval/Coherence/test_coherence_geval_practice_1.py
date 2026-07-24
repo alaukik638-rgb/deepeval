@@ -47,5 +47,5 @@ def test_coherence():
         actual_output="Capital of India is New Delhi. Delhi is one of the oldest cities in India. Delhi is located on the banks of Yamuna. Yamuna is one of the holiest rivers in India. Pandavas of Mahabharata have their capital named as Indraprastha which a lot of historians believe was in and around modern day Delhi."
     )
 
-    # evaluate(test_cases=[test_case_1, test_case_4], metrics=[coherence_metric])
+    # evaluate(test_cases=[test_case_1, test_case_4], task_completion=[coherence_metric])
     evaluate(test_cases=[test_case_6], metrics=[coherence_metric])

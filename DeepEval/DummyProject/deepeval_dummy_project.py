@@ -3,7 +3,7 @@
 # import pandas as pd
 # from openai import OpenAI
 # from pydantic import BaseModel
-# from deepeval.metrics import 01GEval
+# from deepeval.task_completion import 01GEval
 # from deepeval.test_case import LLMTestCase, LLMTestCaseParams
 #
 # class Invoice(BaseModel):

@@ -6,7 +6,7 @@ from deepeval.models import DeepEvalBaseLLM
 load_dotenv()
 
 class GoogleGeminiAI(DeepEvalBaseLLM):
-    """Class to Implement Gemini AI Studio for DeepEval"""
+    """Class to Implement Gemini AI Studio for deepeval"""
     def __init__(self, model: ChatGoogleGenerativeAI):
         self.model: ChatGoogleGenerativeAI = model
         super().__init__()
